@@ -58,7 +58,7 @@ main > section:first-child::before {
   transform: translateX(-50%);
   border-radius: 48% 52% 39% 61% / 26% 30% 70% 74%;
   background:
-    radial-gradient(ellipse 52% 76% at 53% 42%, rgba(24, 1, 59, 0.58), transparent 100%),
+    radial-gradient(ellipse 52% 76% at 53% 42%, rgba(34, 22, 57, .5), transparent 100%),
     radial-gradient(ellipse 45% 80% at 2% 50%, rgba(54, 33, 31, .5), transparent 100%),
     radial-gradient(ellipse 54% 92% at 100% 35%, rgba(29, 28, 62, .48), transparent 100%);
   filter: blur(14px);
