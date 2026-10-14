@@ -143,7 +143,16 @@ main > section:not(:first-child) .container > header.text-center > p:last-child 
 footer { background: #0c101c !important; }
 footer .navbar-brand .text-warning { color: var(--orange) !important; }
 footer .container > .row h2 { font-size: 10px; letter-spacing: .1em; }
-footer .container > .row nav span { font-size: 11px; }
+footer .container > .row .footer-nav-link {
+  padding: 0;
+  color: #f7f8fc;
+  font: inherit;
+  font-size: 11px;
+  text-align: left;
+  background: transparent;
+  border: 0;
+}
+footer .container > .row .footer-nav-link:hover { color: #ff8a32; }
 
 @media (max-width: 991.98px) {
   main > section:first-child { padding-top: 24px !important; }
